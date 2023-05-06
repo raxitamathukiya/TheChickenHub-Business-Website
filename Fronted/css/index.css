@@ -30,12 +30,14 @@
     display: flex;
     align-content: space-between;
     align-items: center; 
+    
 } 
 .nav_right{
     width: 35%;
     display: flex;
     align-items: center;
     justify-content: right;
+   
    
 } 
 .nav_left > img{
@@ -45,7 +47,7 @@
 }
 .nav_right > img{
     
-    width: 15%;
+    width: 18%;
 }
 a{
     text-decoration: none;

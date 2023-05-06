@@ -19,7 +19,7 @@
         </div>
         <div class="nav_right">
             <div>
-                <a href="">Sign In</a>
+                <a href="./signIn.html" id="login">Sign In</a>
             </div>
             <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="">
         </div>
@@ -132,4 +132,17 @@
         </div>
     </footer>
 </body>
+<script>
+   let login=document.getElementById("login")
+    let token=JSON.parse(localStorage.getItem("token"))
+   let name=(localStorage.getItem("name"))
+   
+    if(token==null){
+      login.innerText="Sign In"  
+    }
+  else{
+    login.innerText=name
+  }
+ 
+</script>
 </html>
