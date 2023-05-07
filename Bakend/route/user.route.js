@@ -76,7 +76,6 @@ userRoute.post("/login",async(req,res)=>{
         if(data){
             bcrypt.compare(req.body.password,data.password,(err,result)=>{
                 if(result){
-                    console.log({user:data.name,userID:data._id})
                     let token = jwt.sign({ user:data.name,userID:data._id}, 'raxita');
                     res.status(200).send({message:`Hello ${data.name} login successfully`,"token":token,"name":data.name})
                 }else{

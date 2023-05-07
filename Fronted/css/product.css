@@ -260,5 +260,37 @@ button:hover{
 
 }
 
+#peri:hover{
+    color: black;
+    font-weight: bold;
+}
+#box:hover{
+    color: black;
+    font-weight: bold;
+}
+#rolls:hover{
+    color: black;
+    font-weight: bold;
+}
+#buckets:hover{
+    color: black;
+    font-weight: bold;
+}
+#biryani:hover{
+    color: black;
+    font-weight: bold;
+}
+#burgers:hover{
+    color: black;
+    font-weight: bold;
+}
+#snaks:hover{
+    color: black;
+    font-weight: bold;
+}
+#beverages:hover{
+    color: black;
+    font-weight: bold;
+}
 
 

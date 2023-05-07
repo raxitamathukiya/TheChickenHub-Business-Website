@@ -23,6 +23,16 @@ productRoute.get("/get",async(req,res)=>{
     }
 })
 
+productRoute.get("/category",async(req,res)=>{
+    try {
+        let query=req.query
+        let data=await productModel.find(query)
+        res.status(200).json(data)
+    } catch (error) {
+        console.log(error)
+    }
+})
+
 module.exports={
     productRoute
 }
