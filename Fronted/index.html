@@ -137,14 +137,14 @@
    let login=document.getElementById("login")
    let signout=document.getElementById("signout")
     let token=JSON.parse(localStorage.getItem("token"))
-   let name=(localStorage.getItem("name"))
+   let name=JSON.parse(localStorage.getItem("name"))
    let button =document.getElementById("vp")
    let imgorder=document.getElementById("imgorder")
     if(token==null){
       login.innerText="Sign In"  
     }
   else{
-    login.innerText=name
+    login.innerText=`${name}`
     signout.innerText="SignOut"
     signout.addEventListener("click",()=>{
         localStorage.setItem("token",null)
