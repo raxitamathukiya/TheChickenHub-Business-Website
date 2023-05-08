@@ -92,7 +92,7 @@ userRoute.post("/login",async(req,res)=>{
 
 })
 
-userRoute.delete("/delete/:id",async()=>{
+userRoute.delete("/delete/:id",async(req,res)=>{
     try {
         const {id}=req.params 
     let data=await userModel.findByIdAndDelete({_id:id})
