@@ -10,3 +10,8 @@ let userbtn=document.getElementById("userbtn")
 userbtn.addEventListener("click",()=>{
     window.location="admin_user.html"
 })
+
+let addproduct =document.getElementById("addproduct")
+addproduct.addEventListener("click",()=>{
+    window.location="admin_add_product.html"
+})

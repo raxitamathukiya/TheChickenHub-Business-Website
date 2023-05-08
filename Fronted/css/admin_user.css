@@ -121,6 +121,20 @@ table, td, th {
   table {
     width: 100%;
     border-collapse: collapse;
+    text-align: center;
+  }
+  .del{
+    background-color: rgb(228,0,43);
+  }
+  .btn{
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+    font-weight: bold;
+   
+    height: 30px;
+    background-color: rgb(228,0,43);
+    color: white;
+    border: none;
   }
 .footer{
     margin-top: 40px;

@@ -30,13 +30,43 @@
                 <h1>Dashbord</h1>
                 <div class="menu">
                     <button id="productbtn">Product</button>
-                    <button>Order</button>
-                    <button>Users</button>
-                    <button></button>
+                    <button id="orderbtn">Order</button>
+                    <button id="userbtn">Users</button>
+                    <button id="addproduct">Add Product</button>
                     <button></button>
 
                 </div>
                </div>
+               <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+              
+                    <div class="editform" id="editform">
+                        <form>
+                            <label for=""><b>Id:</b></label><br>
+                            <input type="text" placeholder="Enter Product Id" id="id"><br>
+                            <label for=""><b>Image:</b></label><br>
+                            <input type="text" placeholder="Enter Product Img Url" id="image"><br>
+                            <label for=""><b>Title:</b></label><br>
+                            <input type="text" placeholder="Enter Product Title" id="title"><br>
+                            <label for=""><b>Price:</b></label>
+                            <input type="text" placeholder="Enter Product Price" id="price"><br>
+                            <label for=""><b>Category:</b></label><br>
+                            <input type="text" placeholder="Enter Product Category" id="category"><br>
+                            <label for=""><b>Discription:</b></label>
+                            <input type="text" placeholder="Enter Product Discription" id="discription"><br>
+                        </form>
+              
+                        <button class="add" id="update"><b>Update Product</b></button>
+                    </div>
+              
+                  
+              
+                </div>
+              
+              </div>
                 <div class="product_display">
                     <div class="search">
                         <input type="text" class="searchinput" placeholder="Search CFF menu">
