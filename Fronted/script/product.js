@@ -270,4 +270,7 @@ beverages.addEventListener("click",async()=>{
  cartimg.addEventListener("click",()=>{
     window.location="cart.html"
  })
- 
+ let start_order=document.getElementById('start_order')
+start_order.addEventListener("click",async()=>{
+    window.location="./product.html"
+})

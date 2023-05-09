@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chicken Fastfood</title>
+    <link rel="icon" href="./cff1.png">
+    <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/payment.css">
+    <style>
+         #contanier {
+            border: 1px solid #d90646;
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+            padding: 5%;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+
+        }
+
+        table {
+            width: 100%;
+            ;
+        }
+
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+        }
+
+        #billBar {
+            display: flex;
+            width: 100%;
+
+        }
+
+        .image {
+            width: 30%;
+            background-color: #d90646;
+        }
+
+        p,
+        h3,
+        h4 {
+            padding: 3px;
+            margin: 0px;
+
+        }
+
+        /* nav baar */
+        @media screen and (max-width: 1050px) {
+            #search {
+                font-size: 13px;
+                padding-left: 20px;
+                padding-right: 150px;
+            }
+
+            .navbar button {
+                padding: 0px 20px;
+            }
+
+            #Sweatshirt,
+            #Sunglasses {
+                display: none;
+            }
+
+            .Trending {
+                gap: 10px;
+            }
+
+            #Mens-Data {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            #filterPrice>div {
+                padding-left: 0px;
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            #search {
+                font-size: 13px;
+                padding-left: 10px;
+                padding-right: 0px;
+            }
+
+            .navbar button {
+                padding: 0px 10px;
+            }
+
+            header a:nth-child(1),
+            header a:nth-child(2),
+            #Shoes {
+                display: none;
+            }
+
+            #Mens-Data {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .filterSection {
+                font-weight: 100;
+                color: #000;
+            }
+        }
+
+        @media screen and (max-width: 635px) {
+            #contanier {
+                width: 90%
+            }
+
+            header {
+                justify-content: center;
+            }
+
+            .navbar>div>a>img {
+                width: 150px;
+            }
+
+            #search,
+            #Jeans,
+            #Watchs,
+            header a,
+            .navbar button,
+            #paragraph,
+            #copyright1 {
+                display: none;
+            }
+
+            #Mens-Data {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+            }
+
+            #filter {
+                display: none;
+            }
+
+            .box1 {
+                /* width: 45%; */
+                padding: 0px 10px;
+            }
+
+            #filterColor>div {
+                padding-left: 0px;
+            }
+
+            input[type=radio] {
+                border: 10px;
+                width: 7%;
+                height: 2em;
+            }
+
+            #filterPrice span {
+                width: 100%;
+                margin-left: 2px;
+            }
+
+            .filterSection {
+                font-size: small;
+            }
+
+            h5 {
+                font-size: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="location_div">
+        <hr><p class="location">  📍 Allow location access for local store menu and promos</p><hr>
+    </div>
+    <div class="navbar">
+        <div class="nav_left">
+            <img src="./cff1.png" alt="">
+            <a href="product.html">Menu</a>
+            <a href="">Deals</a>
+        </div>
+        <div class="nav_right">
+            <div class="sign">
+                <a href="./signIn.html" id="login">Sign In</a>
+            </div>
+         
+         <div class="cart">
+            <img src="https://images.ctfassets.net/wtodlh47qxpt/6qtBVFuno7pdwOQ9RIvYm9/d13e9b7242980972cf49beddde2cc295/bucket_cart_icon.svg" alt="">
+            <div class="cartvalue"><span id="count">0</span></div>
+         </div>
+         <div id="signout"></div>
+        </div>
+    </div>
+    <div class="order">
+        <p>LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
+        <button id="start_order">Start Order</button>
+    </div>
+
+    <div id="contanier">
+        <div id="billBar">
+            <div>
+                <div>
+                    <img style="width: 35%;" src="./cff1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <h4>Address :</h4>
+        <Address> 123 ABC Street </Address>
+        <Address> Delhi</Address>
+        <Address>India</Address>
+        <br>
+
+
+
+
+
+        <table id="recipt">
+            <tr>
+                <th>Sr. No.</th>
+                <th>Name</th>
+                <th>Category</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+
+            <tbody id="elements">
+
+                <!-- append item bill here -->
+
+            </tbody>
+
+        </table>
+        <h4>Total cart price : <span id="cartTotal">0 Rs.</span></h4>
+        <h4>Total cart price with discount: <span id="discountTotal">0 Rs.</span></h4>
+
+        <p id="discountApply">please shop above 10000 Rs. to get discount of 20%</p>
+        <div>
+            <h4 >Signature valid :</h4>
+            <h5 >Digitally signed by CFF authorities</h5>
+            <h5>Date: <span id="date"></span></h5>
+            <h5> Location: Delhi</h5>
+
+        </div>
+        <hr>
+
+
+    </div>
+
+
+   
+       
+    <footer>
+        <div class="footer">
+            <div class="logo"><img src="./cff2.png" alt="" class="logo_img"></div>
+            <div class="footer_content">
+           <p> Legal</p>
+           <p> Terms and Conditons</p>
+            <p> Privacy Policy</p>
+            <p> Disclamier</p>
+            <p> Caution Notice</p>
+            </div>
+            <div class="footer_content"><p> CFF India</p>
+                <p> About CFF</p>
+                 <p> CFF Care</p>
+                 <p> Carrers</p>
+                 <p>Our Golden Past</p></div>
+            <div class="footer_content">
+                <p> CFF FOOD</p>
+                <p> Menu</p>
+                 <p> Order Lookup</p>
+                 <p> Gift Card</p>
+                 <p>Nutrition & Allergen</p> 
+            </div>
+            <div class="footer_content">
+                <p> Support</p>
+                <p>Get Help </p>
+                 <p>Contect Us </p>
+                 <p> CFF Feddback</p>
+                 <p>Privacy Policy</p>
+            </div>
+            <div class="foo_lo">
+                <img src="https://images.ctfassets.net/wtodlh47qxpt/6qgKpWUOIsrIiazhk3cdmF/d60b4c20be69bab1f939bf33348b67e9/Find_KFC.svg" alt="">
+            </div>
+            <div class="foo_find">
+                <a href="">Find a CFF</a>
+            </div>
+            <div class="google">
+                <img src="googleplay.png" alt="">
+            </div>
+            <div class="app"><img src="appstore.png" alt=""></div>
+        </div>
+        <div class="foo_bottom">
+            <p>Copyright © CFF Corporation 2021 All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+<script src="./script/invoice.js"></script>
+</html>

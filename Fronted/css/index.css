@@ -30,24 +30,48 @@
     display: flex;
     align-content: space-between;
     align-items: center; 
+   
     
 } 
 .nav_right{
     width: 35%;
     display: flex;
+    align-content: space-between;
     align-items: center;
     justify-content: right;
    
    
+   
 } 
+.sign{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+   
+}
 .nav_left > img{
     
     width: 18%;
    
 }
-.nav_right > img{
+.cart{
+    width: 60%;
+   display: block;
+    justify-content: left;
+    position: relative;
+    text-align: center;
+  
     
-    width: 18%;
+}
+.cart > img{
+    
+    width: 25%;
+}
+.cartvalue{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 a{
     text-decoration: none;

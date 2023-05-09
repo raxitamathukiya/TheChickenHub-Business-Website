@@ -94,7 +94,37 @@ function display(data){
         let checkout=document.createElement("button")
         checkout.setAttribute("class","checkout")
         checkout.textContent=`Total Price : ₹  ${total}`
+        checkout.addEventListener("click",()=>{
+            console.log("hello")
+            modal.style.display = "block";
+        })
         main.append(checkout)
     }
    
 }
+
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+
+span.onclick = function () {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+let delivery=document.getElementById("delivery")
+delivery.addEventListener("click",()=>{
+    window.location="./payment.html"
+})
+let pick_up=document.getElementById("pick_up")
+let dine_in=document.getElementById("dine_in")
+let start_order=document.getElementById('start_order')
+start_order.addEventListener("click",async()=>{
+    window.location="./product.html"
+})

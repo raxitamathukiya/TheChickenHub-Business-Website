@@ -94,7 +94,16 @@ a{
     color: white;
     border: none;
 }
-
+.admin_main{
+    width: 70%;
+    margin-left: 50px;
+    box-shadow: 0px 4px 10px 1px rgba(15, 2, 2, 0.1);
+   
+  
+}
+.admin_main > h1{
+    color: rgb(228,0,43);
+}
 .footer{
     margin-top: 40px;
     width: 100%;

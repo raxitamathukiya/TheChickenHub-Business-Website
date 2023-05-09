@@ -25,12 +25,21 @@
           <div class="row button">
             <input type="submit" value="Login">
           </div>
-          <div class="signup-link">Not a member? <a href="signup.html">Signup now</a></div>
-          <div class="signup-link"> <a href="admin_login.html">Admin</a></div>
+         
         </form>
       </div>
     </div>
 
   </body>
-  <script src="./script/signIn.js"></script>
+  <script>
+    let form=document.querySelector("form")
+let email=document.getElementById("email")
+let password=document.getElementById("password")
+
+form.addEventListener("submit",async(e)=>{
+    e.preventDefault()
+   window.location="./admin.html"
+})
+
+  </script>
 </html>

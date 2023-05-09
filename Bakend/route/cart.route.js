@@ -25,13 +25,14 @@ cartRoute.delete("/delete/:id",async(req,res)=>{
 })
 cartRoute.get("/get",async(req,res)=>{
     try {
-        let data=await cartModel.find()
+        let data=await cartModel.find({userID:req.body.userID})
         res.status(200).json(data)
     } catch (error) {
         console.log(error)
         
     }
 })
+
 
 module.exports={
     cartRoute
