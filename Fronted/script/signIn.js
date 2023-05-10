@@ -22,7 +22,12 @@ form.addEventListener("submit",async(e)=>{
         alert(`${data.message} `)
         localStorage.setItem("token",JSON.stringify(data.token))
         localStorage.setItem("name",JSON.stringify(data.name))
-        window.location="index.html"
+        if(data.name=="admin"){
+            window.location="admin.html"
+        }else{
+            window.location="index.html"
+        }
+       
     } catch (error) {
         console.log(error)
     }
