@@ -3,6 +3,78 @@ const productRoute=express.Router()
 const {productModel}=require("../model/product.model")
 const {connection}=require("../db")
 
+/**
+ * @swagger
+ * tags:
+ *  name: Products
+ *  description: All the API routes realeted the Products
+ */
+
+/**
+ * @swagger
+ * /product/add:
+ *  post:
+ *      summary: This will add new product in the DataBase
+ *      tags: [Products]
+ *      responses:
+ *          200:
+ *              description: New productadded!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+
+/**
+ * @swagger
+ * /product/get:
+ *  get:
+ *      summary: This will get all product to the database
+ *      tags: [Products]
+ *      responses:
+ *          200:
+ *              description: get All product!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+
+/**
+ * @swagger
+ * /product/category:
+ *  get:
+ *      summary: This will sort data by category
+ *      tags: [Products]
+ *      responses:
+ *          200:
+ *              description: filter the data by category!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+
+/**
+ * @swagger
+ * /product/delete/:id:
+ *  delete:
+ *      summary: This will delete the product
+ *      tags: [Products]
+ *      responses:
+ *          200:
+ *              description: product deleted!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+
+/**
+ * @swagger
+ * /product/update/:id:
+ *  put:
+ *      summary: This will update the product
+ *      tags: [Products]
+ *      responses:
+ *          200:
+ *              description: product updated!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+
 productRoute.post("/add",async(req,res)=>{
     try {
         const data=req.body

@@ -99,6 +99,7 @@ function display(data){
                     })
                     let data=await res.json()
                     alert(data.message)
+                    fetchcartdata()
 
                 } catch (error) {
                     console.log(error)

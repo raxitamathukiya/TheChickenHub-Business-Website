@@ -16,6 +16,7 @@ form.addEventListener("submit",(e)=>{
          console.log(obj) 
         fetch(`http://localhost:8080/users/register`,{
             method:"POST",
+            mode:"cors",
             headers:{
                 
                 'Content-Type':'application/json'

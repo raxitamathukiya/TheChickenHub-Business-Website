@@ -15,8 +15,10 @@
     <div class="navbar">
         <div class="nav_left">
             <img src="./cff1.png" alt="">
+            <a href="index.html">Home</a>
             <a href="product.html">Menu</a>
             <a href="">Deals</a>
+            
         </div>
         <div class="nav_right">
             <div class="sign">
@@ -138,6 +140,19 @@
     </footer>
 </body>
 <script>
+    fetch("http://localhost:8080/",{
+        method:"GET",
+        headers:{
+                'Content-type':'application/json',
+               
+            },
+    })
+    .then((res)=>{
+        return res.json()
+    })
+    .then((data)=>{
+        console.log(data)
+    })
    let login=document.getElementById("login")
    let signout=document.getElementById("signout")
     let token=JSON.parse(localStorage.getItem("token"))

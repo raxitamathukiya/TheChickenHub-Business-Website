@@ -5,39 +5,64 @@ const {connection}=require("../db")
 const jwt=require("jsonwebtoken")
 const bcrypt=require("bcrypt")
 
-// /**
-//  * @swagger
-//  * tags:
-//  *  name: Users
-//  *  description: All the API routes realeted the Users
-//  */
+/**
+ * @swagger
+ * tags:
+ *  name: Users
+ *  description: All the API routes realeted the Users
+ */
 
-// /**
-//  * @swagger
-//  * /users/register:
-//  *  post:
-//  *      summary: This will add new user in the DataBase
-//  *      tags: [Users]
-//  *      responses:
-//  *          200:
-//  *              description: registration is successfully done!! 
-//  *          400:
-//  *              description: Inccorect Request!!!!
-//  */
+/**
+ * @swagger
+ * /users/register:
+ *  post:
+ *      summary: This will add new user in the DataBase
+ *      tags: [Users]
+ *      responses:
+ *          200:
+ *              description: registration is successfully done!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
 
-// /**
-//  * @swagger
-//  * /users/login:
-//  *  post:
-//  *      summary: This will check user exits or not
-//  *      tags: [Users]
-//  *      responses:
-//  *          200:
-//  *              description: login successfully!! 
-//  *          400:
-//  *              description: Inccorect Request!!!!
-//  */
+/**
+ * @swagger
+ * /users/login:
+ *  post:
+ *      summary: This will check user exits or not
+ *      tags: [Users]
+ *      responses:
+ *          200:
+ *              description: login successfully!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
 
+
+/**
+ * @swagger
+ * /users/get:
+ *  get:
+ *      summary: This will give All user data
+ *      tags: [Users]
+ *      responses:
+ *          200:
+ *              description: give all user data!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
+/**
+ * @swagger
+ * /users/delete/:id:
+ *  delete:
+ *      summary: This will delete the user
+ *      tags: [Users]
+ *      responses:
+ *          200:
+ *              description: user deleted!!!! 
+ *          400:
+ *              description: Inccorect Request!!!!
+ */
 userRoute.get("/get/:id",async(req,res)=>{
     try {
         const {id}=req.params
@@ -64,7 +89,7 @@ userRoute.post("/register",async(req,res)=>{
         }); 
        }
     } catch (error) {
-        console.log("error")
+        console.log(error)
     }
 
 })
