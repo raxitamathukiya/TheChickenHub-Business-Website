@@ -3,49 +3,48 @@
 <a href="(https://github.com/raxitamathukiya)"> Raxita Mathukiya </a>
 
 Netlify link = [https://6478851def3b94031a1b5dc6--transcendent-crostata-983746.netlify.app/](https://moonlit-druid-17f726.netlify.app)
+Backend Deploye Link = https://cff-jqw1.onrender.com/
 
 Website detail: CFF (Chicken Fastfood) is a chain of fast food restaurants known for their fried chicken.CFF is not only sell chicken, but also other food like salads and french fries.
 
 You can see the landing page screenshot below.
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/d06346a7-3dfa-4445-b9a1-287449ee9c18)
-
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/4e467650-30c5-42a0-b84c-b08c27ff1876)
 
 here you can see the Menu page screeshot 
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/ab6fd7ba-088e-4d10-905b-592298355c5b)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/57118d4f-0ff1-4916-88c3-24ef2765afd8)
 
 here you can see the cart page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/1b931c42-2747-4eea-b573-58af9388ea38)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/a23f3ac1-eb70-4a09-b9e8-67f3e3e2b688)
 
 here you can see the checkout page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/a70b42f7-6920-4a63-8a98-24c893713bd0)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/5366f44d-87df-483a-89af-6d0bcf090bcb)
 
 here you can see the payment page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/dbbd2e19-2dfb-4e69-a5c4-f5a4f016231a)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/f4c675f4-21d9-462e-835d-691580b1858e)
 
 here you can see the Invoice page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/a5bea06d-d0ba-4e97-ad5f-64377656de95)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/9cff6b05-ed1b-4ace-a361-71a9130f3031)
 
 here you can see the SignIn page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/678860c1-4847-4b89-b5a7-447a115c3ae2)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/4a53d948-eba7-4e38-a3be-d89beb66775c)
 
 here you can see the Signup page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/1d5ef4da-b324-45e4-b934-30d2c76be0c3)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/2e8a309c-684d-448c-a320-4179a8109e96)
 
 here you can see the Admin Home page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/934c92fc-7f98-40ad-b96a-1904b9347882)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/9b876e81-02c2-4350-a046-f74414f16665)
 
 here you can see the Admin product page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/5c539860-d054-438d-a2c2-f0e846eb323b)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/95536909-4e22-4bef-bc92-98d242442327)
 
 here you can see the Admin order page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/cd3edf46-6dd9-411d-a436-a5ad7226dfbe)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/db3c8de8-a44a-49ff-8f1c-ee31e8aef9cc)
 
 here you can see the Admin user page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/c74dc55c-18d2-46a8-8ef1-c8914ab4f8e0)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/3185a98e-540a-4bd6-9126-9c793f835151)
 
 here you can see the Admin add_new_product page screeshot
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/68f6488a-8e18-4f42-8072-e5175378fea6)
-
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/def2927e-607b-4a5c-a22c-ea698de1ca37)
 
 
 
