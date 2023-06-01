@@ -2,7 +2,7 @@
 
 <a href="(https://github.com/raxitamathukiya)"> Raxita Mathukiya </a>
 
-Netlify link = [https://6478851def3b94031a1b5dc6--transcendent-crostata-983746.netlify.app/](https://moonlit-druid-17f726.netlify.app)
+Netlify link = https://transcendent-crostata-983746.netlify.app/
 
 Backend Deploye Link = https://cff-jqw1.onrender.com/
 
