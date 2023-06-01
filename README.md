@@ -7,7 +7,8 @@ Netlify link = [https://6478851def3b94031a1b5dc6--transcendent-crostata-983746.n
 Website detail: CFF (Chicken Fastfood) is a chain of fast food restaurants known for their fried chicken.CFF is not only sell chicken, but also other food like salads and french fries.
 
 You can see the landing page screenshot below.
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/ccadb0bb-61c2-4973-9d04-1744363bb0c5)
+![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/d06346a7-3dfa-4445-b9a1-287449ee9c18)
+
 
 here you can see the Menu page screeshot 
 ![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/ab6fd7ba-088e-4d10-905b-592298355c5b)
