@@ -9,7 +9,7 @@ Backend Deploye Link = https://cff-jqw1.onrender.com/
 Website detail: TheChickenHub is a chain of fast food restaurants known for their fried chicken.TheChickenHub is not only sell chicken, but also other food like salads and french fries.
 
 You can see the landing page screenshot below.
-![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/4e467650-30c5-42a0-b84c-b08c27ff1876)
+![image](https://github.com/raxitamathukiya/TheChickenHub/assets/36467733/619455b1-2704-438c-892b-342fbad298db)
 
 here you can see the Menu page screeshot 
 ![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/57118d4f-0ff1-4916-88c3-24ef2765afd8)
