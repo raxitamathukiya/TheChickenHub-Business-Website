@@ -1,4 +1,4 @@
-# Chicken-Fastfood
+# TheChickenHub
 
 <a href="(https://github.com/raxitamathukiya)"> Raxita Mathukiya </a>
 
@@ -6,7 +6,7 @@ Netlify link = https://transcendent-crostata-983746.netlify.app/
 
 Backend Deploye Link = https://cff-jqw1.onrender.com/
 
-Website detail: CFF (Chicken Fastfood) is a chain of fast food restaurants known for their fried chicken.CFF is not only sell chicken, but also other food like salads and french fries.
+Website detail: TheChickenHub is a chain of fast food restaurants known for their fried chicken.TheChickenHub is not only sell chicken, but also other food like salads and french fries.
 
 You can see the landing page screenshot below.
 ![image](https://github.com/raxitamathukiya/overconfident-way-1012/assets/36467733/4e467650-30c5-42a0-b84c-b08c27ff1876)
