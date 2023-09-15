@@ -20,7 +20,7 @@ addproduct.addEventListener("click",()=>{
 fetchdata()
 async function fetchdata(){
     try {
-        let res=await fetch(`http://localhost:8080/users/get`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/users/get`,{
             method:"GET",
             headers:{
                 'Content-type':'application/json',
@@ -47,7 +47,7 @@ function display(data){
         btn.setAttribute("class","btn")
         btn.addEventListener("click",async()=>{
             try {
-                let res=await fetch(`http://localhost:8080/users/delete/${element._id}`,{
+                let res=await fetch(`https://cff-jqw1.onrender.com/users/delete/${element._id}`,{
                  method:"DELETE",
                  headers:{
                      'Content-type':'application/json',

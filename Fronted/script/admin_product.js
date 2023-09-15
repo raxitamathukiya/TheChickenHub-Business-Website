@@ -31,7 +31,7 @@ addproduct.addEventListener("click",()=>{
 fetchdata()
 async function fetchdata(){
     try {
-      let res=await fetch("http://localhost:8080/product/get",{
+      let res=await fetch("https://cff-jqw1.onrender.com/product/get",{
         method:"GET",
         headers:{
             'Content-type':'application/json'
@@ -49,7 +49,7 @@ async function fetchdata(){
 fetchcartdata()
 async function fetchcartdata(){
     try {
-        let res= await  fetch(`http://localhost:8080/cart/get`,{
+        let res= await  fetch(`https://cff-jqw1.onrender.com/cart/get`,{
             method:"GET",
             headers:{
                 'Content-type':'application/json',
@@ -93,7 +93,7 @@ function display(data){
          button.addEventListener("click",async()=>{
                 
                 try {
-                    let res=await fetch(`http://localhost:8080/product/delete/${element._id}`,{
+                    let res=await fetch(`https://cff-jqw1.onrender.com/product/delete/${element._id}`,{
                         method:"DELETE",
                         headers:{
                             'Content-type':'application/json',
@@ -132,7 +132,7 @@ function display(data){
     });
 }
  function populateEditForms(currentId) {
-    fetch(`http://localhost:8080/product/${currentId}`,{
+    fetch(`https://cff-jqw1.onrender.com/product/${currentId}`,{
         method:"GET",
         headers:{
         "Content-Type":"application/json",
@@ -189,7 +189,7 @@ function display(data){
           discription:discription.value ,
         }
         console.log(obj)
-       let res=await  fetch(`http://localhost:8080/product/update/${obj._id}`,{
+       let res=await  fetch(`https://cff-jqw1.onrender.com/product/update/${obj._id}`,{
           method:"PUT",
           headers:{
             "Content-Type":"application/json",

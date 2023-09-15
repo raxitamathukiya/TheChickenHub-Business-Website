@@ -10,7 +10,7 @@ form.addEventListener("submit",async(e)=>{
             email:email.value,
             password:password.value
         }  
-        let res=await fetch(`http://localhost:8080/users/login`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/users/login`,{
             method:"POST",
             headers:{
                 'Content-Type':'application/json'

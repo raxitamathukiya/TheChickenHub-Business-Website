@@ -21,7 +21,7 @@ if(token==null){
  fetchdata()
 async function fetchdata(){
     try {
-        let res= await  fetch(`http://localhost:8080/cart/get`,{
+        let res= await  fetch(`https://cff-jqw1.onrender.com/cart/get`,{
             method:"GET",
             headers:{
                 'Content-type':'application/json',

@@ -12,7 +12,7 @@ form.addEventListener("submit",(e)=>{
             discription:form[4].value,
         }
          console.log(obj) 
-        fetch(`http://localhost:8080/product/add`,{
+        fetch(`https://cff-jqw1.onrender.com/product/add`,{
             method:"POST",
             headers:{
                 

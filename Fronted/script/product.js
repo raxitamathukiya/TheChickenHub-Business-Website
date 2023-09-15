@@ -29,7 +29,7 @@ else{
 fetchdata()
 async function fetchdata(){
     try {
-      let res=await fetch("http://localhost:8080/product/get",{
+      let res=await fetch("https://cff-jqw1.onrender.com/product/get",{
         method:"GET",
         headers:{
             'Content-type':'application/json'
@@ -47,7 +47,7 @@ async function fetchdata(){
 fetchcartdata()
 async function fetchcartdata(){
     try {
-        let res= await  fetch(`http://localhost:8080/cart/get`,{
+        let res= await  fetch(`https://cff-jqw1.onrender.com/cart/get`,{
             method:"GET",
             headers:{
                 'Content-type':'application/json',
@@ -85,7 +85,7 @@ function display(data){
          button.addEventListener("click",async()=>{
                 count.innerText=++c
                 try {
-                    let res=await fetch(`http://localhost:8080/cart/addcart`,{
+                    let res=await fetch(`https://cff-jqw1.onrender.com/cart/addcart`,{
                         method:"POST",
                         headers:{
                             'Content-type':'application/json',
@@ -116,7 +116,7 @@ function display(data){
 peri.addEventListener("click",async()=>{
    let cat="PERI PERI MATCH SPECIALS"
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=PERI PERI MATCH SPECIALS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=PERI PERI MATCH SPECIALS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -136,7 +136,7 @@ peri.addEventListener("click",async()=>{
 
 box.addEventListener("click",async()=>{
      try {
-         let res=await fetch(`http://localhost:8080/product/category/?category=BOX MEALS`,{
+         let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=BOX MEALS`,{
            method:"GET",
            headers:{
                'Content-type':'application/json',
@@ -155,7 +155,7 @@ box.addEventListener("click",async()=>{
  })
  rolls.addEventListener("click",async()=>{
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=CHICKEN ROLLS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=CHICKEN ROLLS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -174,7 +174,7 @@ box.addEventListener("click",async()=>{
 })
 buckets.addEventListener("click",async()=>{
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=CHICKEN BUCKETS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=CHICKEN BUCKETS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -193,7 +193,7 @@ buckets.addEventListener("click",async()=>{
 })
 biryani.addEventListener("click",async()=>{
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=BIRYANI BUCKETS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=BIRYANI BUCKETS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -212,7 +212,7 @@ biryani.addEventListener("click",async()=>{
 })
 snaks.addEventListener("click",async()=>{
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=SNACKS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=SNACKS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -231,7 +231,7 @@ snaks.addEventListener("click",async()=>{
 })
 burgers.addEventListener("click",async()=>{
     try {
-        let res=await fetch(`http://localhost:8080/product/category/?category=BURGERS`,{
+        let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=BURGERS`,{
           method:"GET",
           headers:{
               'Content-type':'application/json',
@@ -250,7 +250,7 @@ burgers.addEventListener("click",async()=>{
 })
 beverages.addEventListener("click",async()=>{
      try {
-         let res=await fetch(`http://localhost:8080/product/category/?category=BEVERAGES`,{
+         let res=await fetch(`https://cff-jqw1.onrender.com/product/category/?category=BEVERAGES`,{
            method:"GET",
            headers:{
                'Content-type':'application/json',

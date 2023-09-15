@@ -14,7 +14,7 @@ form.addEventListener("submit",(e)=>{
             password:password.value
         }
          console.log(obj) 
-        fetch(`http://localhost:8080/users/register`,{
+        fetch(`https://cff-jqw1.onrender.com/users/register`,{
             method:"POST",
             mode:"cors",
             headers:{
