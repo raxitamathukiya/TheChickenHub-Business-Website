@@ -5,68 +5,65 @@
         margin: 0;
         box-sizing: border-box;
     }
-.location_div{
-    width: 100%;
-    /* position: fixed;
-    z-index: 99999; */
-}
-.location{
-    text-align: center;
-    padding: 20px 0px ; 
-}
-.navbar{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    padding: 10px 10px 10px 10px;
-    background-color: rgb(255,255,255);
-    justify-content: space-around;
-    /* position: fixed;
-    z-index: 99999;
-    margin-top: 60px; */
-}
-.nav_left{
-    width: 35%;
-    display: flex;
-    align-content: space-between;
-    align-items: center; 
+    .navbar{
+        position: fixed;
+        top: 0px;
+        left: 0;
+        
+        
+        z-index: 1; 
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding: 10px 10px 10px 10px;
+        background-color: rgb(255,255,255);
+        justify-content: space-around;
+        /* position: fixed;
+        z-index: 99999;
+        margin-top: 60px; */
+    }
+    .nav_left{
+        width: 35%;
+        display: flex;
+        align-content: space-between;
+        align-items: center; 
+        
+    } 
+    .nav_right{
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+       
+       
+    } 
+    .nav_left > img{
+        
+        width: 18%;
+       
+    }
+    .nav_right > img{
+        
+        width: 18%;
+    }
+    a{
+        text-decoration: none;
+        margin-bottom: 10px;
+        font-size: 20px;
+        padding: 20px;
+        color: black;
+        
+    }
     
-} 
-.nav_right{
-    width: 35%;
-    display: flex;
-    align-items: center;
-    justify-content: right;
-   
-   
-} 
-.nav_left > img{
+    .main{
     
-    width: 18%;
-   
-}
-.nav_right > img{
-    
-    width: 18%;
-}
-a{
-    text-decoration: none;
-    margin-bottom: 10px;
-    font-size: 20px;
-    padding: 20px;
-    color: black;
-    
-}
-
-
-
-.main{
-    width: 90%;
-    margin: auto;
-    padding: 20px 20px 20px 20px;
-    display: flex;
-    
-}
+        width: 90%;
+        margin-top: 100px;
+        margin-left: 100px;
+        padding: 20px 20px 20px 20px;
+        display: flex;
+        
+    }
 .dashbord{
     width: 20%;
     padding: 10px 10px 10px 10px;

@@ -1,7 +1,12 @@
+
 let main=document.getElementById("all_cart")
 let token=JSON.parse(localStorage.getItem("token"))
 let name=JSON.parse(localStorage.getItem("name"))
 let productbtn=document.getElementById("productbtn")
+let homebtn=document.getElementById("homebtn")
+homebtn.addEventListener("click",()=>{
+    window.location="admin.html"
+})
 productbtn.addEventListener("click",()=>{
     window.location="admin_product.html"
 })

@@ -1,3 +1,7 @@
+let homebtn=document.getElementById("homebtn")
+homebtn.addEventListener("click",()=>{
+    window.location="admin.html"
+})
 let productbtn=document.getElementById("productbtn")
 productbtn.addEventListener("click",()=>{
     window.location="admin_product.html"

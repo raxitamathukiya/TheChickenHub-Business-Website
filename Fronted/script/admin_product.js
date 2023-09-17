@@ -10,7 +10,10 @@ let image=document.getElementById("image")
 let price=document.getElementById("price")
 let category=document.getElementById("category")
 let discription=document.getElementById("discription")
-
+let homebtn=document.getElementById("homebtn")
+homebtn.addEventListener("click",()=>{
+    window.location="admin.html"
+})
 productbtn.addEventListener("click",()=>{
     window.location="admin_product.html"
 })

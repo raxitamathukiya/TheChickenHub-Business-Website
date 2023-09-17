@@ -5,16 +5,14 @@
         margin: 0;
         box-sizing: border-box;
     }
-.location_div{
-    width: 100%;
-    /* position: fixed;
-    z-index: 99999; */
-}
-.location{
-    text-align: center;
-    padding: 20px 0px ; 
-}
+
 .navbar{
+    position: fixed;
+    top: 0px;
+    left: 0;
+    
+    
+    z-index: 1; 
     width: 100%;
     display: flex;
     align-items: center;
@@ -58,11 +56,11 @@ a{
     
 }
 
-
-
 .main{
+
     width: 90%;
-    margin: auto;
+    margin-top: 100px;
+    margin-left: 100px;
     padding: 20px 20px 20px 20px;
     display: flex;
     
